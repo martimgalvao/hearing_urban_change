@@ -93,6 +93,6 @@ And again, we can visualize the zip codes with p-values < 0.05 on a map:
   <img src="https://github.com/martimgalvao/hearing_urban_change/blob/main/year_p_map.png" />
 </p>
 
-Although the initial results of this study are promising, more data is needed to understand the relationship between noise and urban chance in New York City. Future considerations include number of new constructions per zip code and population demographic.
+Although the initial results of this study are promising, more data is needed to understand the relationship between noise and urban change in New York City. Future considerations include the number of new constructions per zip code and population demographics.
 
 Additionally, the question of what qialifies as 'noise' is an interesting pursuit in and of itself. A future iteration would benefit from incroporating a categorized and geo-tagged database of city sounds such as NYU's Sound of New York City Urban Sound Tagging (SONYC-UST) dataset.
