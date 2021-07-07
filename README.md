@@ -46,7 +46,7 @@ There is also one case of an inverse relationship:
 
 Interestingly, this zip code was named [America's Most Expensive Zip Code](https://www.businessinsider.com/americas-most-expensive-zip-code-10065-2012-10) by Business Insider in 2012.
 
-Mapping the zip code p-values, we can visualize what neighborhoods are experiencing correlated increases in rent and noise reports:
+Mapping the zip code p-values, we can visualize what neighborhoods are experiencing correlated increases in noise incident reports and observed rent index:
 
 <p align="center">
   <img src="https://github.com/martimgalvao/hearing_urban_change/blob/main/month_p_map.png" />
