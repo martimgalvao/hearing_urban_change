@@ -8,7 +8,7 @@ Then, for each zip code, we use the number of noise incident reports per month a
 
 After discarding zip codes with a p-value < 0.05, we are left with a list of 37 zip codes.
 
-While rent tends to trend upwards, by plotting the observed rent index and number of noise incident reports over time we can see how certain neighborhoods seem to experience a corellated increase in both.
+While rent tends to trend upwards, by plotting the observed rent index and number of noise incident reports over time we can see how certain neighborhoods seem to experience a corallated increase in both.
 
 A few examples:
 
@@ -37,8 +37,6 @@ A few examples:
   <img src="https://github.com/martimgalvao/hearing_urban_change/blob/main/months_output/month_output_11435.png" />
 </p>
 
-Many of these areas have also seen extensive urban development during the same time period, something to be further examined in a future version of this study.
-
 There is also one case of an inverse relationship:
 
 <p align="center">
@@ -54,11 +52,9 @@ Mapping the zip code p-values, we can visualize what neighborhoods are experienc
   <img src="https://github.com/martimgalvao/hearing_urban_change/blob/main/month_p_map.png" />
 </p>
 
-Because the number of noise incidents reported seems to exhibit regular fluctuations based on the time of year, we can also examine this same correlation on a yearly timescale.
+Many of the areas selected by the correlation process above have seen rapid urban change in the past decade, but not all of them. Because the number of noise incidents reported exhibits regular fluctuations based on the time of year, we can also examine this same correlation on a yearly timescale to see if our accuracy improves.
 
-Running the same correlation calculation for 2014-2019, we get a list of 20 zip codes with a p-value < 0.05.
-
-These results seem to hone in of some of the more rapidly changing neighborhoods in New York City.
+Running the same correlation calculation by year for 2014-2019, we get a list of 20 zip codes with a p-value < 0.05.
 
 A few examples:
 
@@ -87,12 +83,14 @@ A few examples:
   <img src="https://github.com/martimgalvao/hearing_urban_change/blob/main/years_output/year_output_11221.png" />
 </p>
 
+These results better hone in on rapidly changing neighborhoods in New York City, with most of them categorized as being in some state of gentrification by the [Urban Displacement Project](https://www.urbandisplacement.org/maps/ny).
+
 And again, we can visualize the zip codes with p-values < 0.05 on a map:
 
 <p align="center">
   <img src="https://github.com/martimgalvao/hearing_urban_change/blob/main/year_p_map.png" />
 </p>
 
-Although the initial results of this study are promising, more data would help to understand the relationship between noise and urban change in New York City, specifically around the question of what qualifies as 'noise'. Future iterations of this project will incroporate categorized and geo-tagged data of city sounds, allowing us to compare the frequency of noise sources such as sirens, screeching tires, loud music, jackhammers and the like to the number of noise incident reports in the area.
+Although the initial results of this study are promising, more data would help to understand the relationship between noise and urban change in New York City, specifically around the question of what qualifies as 'noise'. Future iterations of this project will incorporate categorized and geo-tagged data of city sounds, allowing us to compare the frequency of noise sources such as sirens, screeching tires, loud music, jackhammers and the like to the number of noise incidents reported in the area.
 
-A pre-labeled dataset such as NYU's Sound of New York City Urban Sound Tagging ([SONYC-UST](https://wp.nyu.edu/sonyc/)) dataset will be useful in this next phase, as will geo-tagged audio files from publicly available sources such as [freesound.org](https://freesound.org). The latter will require the development of an audio event classifier, likely using [Librosa](https://librosa.org), to recognize various categories of noise.
+A pre-labeled dataset such as NYU's Sound of New York City Urban Sound Tagging ([SONYC-UST](https://wp.nyu.edu/sonyc/)) dataset will be useful in this next phase, as will geo-tagged audio files from publicly available sources such as [Freesound](https://freesound.org). The latter will require the development of an audio event classifier, likely using [Librosa](https://librosa.org), to recognize various categories of noise present in the recordings.
