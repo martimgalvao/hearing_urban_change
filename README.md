@@ -1,14 +1,14 @@
 # Hearing Urban Change
 
-Using noise incident reports from ???311 and observed rent index data from ???Zillow, we explore whether noise can be used as as a marker of change in New York City.
+Using noise incident reports from 311 noise complaints from NYC Open Data and observed rent index data from Zillow Research, we can explore how correlation between noise incident reportas and observed rent index can be used as as an indicator of urban change in New York City nighborhoods.
 
-First, we group the data by zip code and remove all data after 12/2019 to eliminate abnormal market behavior during the pandemic.
+First, we group the available data (from 2014 to 2021) by zip code and remove all data after 12/2019 to eliminate abnormal market behavior during the pandemic.
 
-Then, for each zip code, we use the number of noise reports per month and the rent index to determine correlation.
+Then, for each zip code, we use the number of noise incident reports per month and the observed rent index of that month to determine correlation.
 
 After discarding zip codes with a p-value < 0.05, we are left with a list of 37 zip codes.
 
-While rent tends to trend upwards in most zip codes, by plotting the rent index and number of noise reports over time we can see how certain neighborhoods seem to experience a corellated increase in both.
+While rent tends to trend upwards, by plotting the observed rent index and number of noise incident reports over time we can see how certain neighborhoods seem to experience a corellated increase in both. As 
 
 A few examples:
 
@@ -39,7 +39,7 @@ A few examples:
 
 Many of these area have also seen extensive urban development during the same time period, something to be further examined in a future version of this study.
 
-There is also one interesting case of an inverse relationship:
+There is also one case of an inverse relationship:
 
 <p align="center">
   10065 (Upper East Side) <br>
@@ -54,11 +54,11 @@ Mapping the zip code p-values, we can visualize what neighborhoods are experienc
   <img src="https://github.com/martimgalvao/hearing_urban_change/blob/main/month_p_map.png" />
 </p>
 
-Because the number of noise incidents reported seems to exhibit regular fluctuations based on the time of year, we might also want to examine this same correlation on a yearly timescale.
+Because the number of noise incidents reported seems to exhibit regular fluctuations based on the time of year, we can also examine this same correlation on a yearly timescale.
 
 Running the same correlation calculation for 2014-2019, we get a list of 20 zip codes with a p-value < 0.05.
 
-These results seem hone in of some of the more rapidly changing neighborhoods in New York City.
+These results seem to hone in of some of the more rapidly changing neighborhoods in New York City.
 
 A few examples:
 
@@ -93,6 +93,4 @@ And again, we can visualize the zip codes with p-values < 0.05 on a map:
   <img src="https://github.com/martimgalvao/hearing_urban_change/blob/main/year_p_map.png" />
 </p>
 
-Although the initial results of this study are promising, more data is needed to understand the relationship between noise and urban change in New York City. Future considerations include the number of new constructions per zip code and population demographics.
-
-Additionally, the question of what qialifies as 'noise' is an interesting pursuit in and of itself. A future iteration would benefit from incroporating a categorized and geo-tagged database of city sounds such as NYU's Sound of New York City Urban Sound Tagging (SONYC-UST) dataset.
+Although the initial results of this study are promising, more data would help to understand the relationship between noise and urban change in New York City, specifically around the question of what qualifies as 'noise'. Future iterations of this project will incroporate categorized and geo-tagged data of city sounds, allowing us to compare the frequency of noise sources such as sirens, screeching tires, loud music, jackhammers and the like to the number of noise incident reports in the area. NYU's Sound of New York City Urban Sound Tagging (SONYC-UST) dataset will be useful in this next step.
