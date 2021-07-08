@@ -44,7 +44,7 @@ While rent tends to trend upwards, by plotting the observed rent index and numbe
 To better understand these relationships, we can also visualize the 20 significant zip codes on a map:
 
 <p align="center">
-  <img src="https://github.com/martimgalvao/hearing_urban_change/blob/main/year_p_map.png" />
+  <img src="https://github.com/martimgalvao/hearing_urban_change/blob/main/year_r_map.png" />
 </p>
 
 Although the initial results of this study are promising, more data would help to better understand the relationship between noise and urban change in New York City, specifically around the question of what qualifies as 'noise'. Future iterations of this project will incorporate categorized and geo-tagged data of city sounds to compare the frequency of noise sources such as sirens, screeching tires, loud music, jackhammers and the like to the number of noise incidents reported in the area.
