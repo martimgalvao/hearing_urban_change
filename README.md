@@ -8,7 +8,7 @@ Then, for each zip code, we use the number of noise incident reports per month a
 
 After discarding zip codes with a p > 0.05 and an r < 0.8, we are left with no significant correlations.
 
-Because the number of noise incidents reported exhibits regular fluctuations based on the time of year, we can also examine this same correlation on a yearly timescale to see if our accuracy improves.
+Because the number of noise incidents reported exhibits regular fluctuations based on the time of year, we can also examine this same correlation on a yearly timescale.
 
 Running the same correlation calculation by year for 2014-2019, we get a list of 20 zip codes with a p < 0.05 and r > 0.8.
 
