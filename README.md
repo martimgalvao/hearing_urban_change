@@ -10,7 +10,7 @@ In the first step of this preliminary analysis, available data for both noise in
 
 Following this, a correlation coefficient is generated for the relationship between the number of noise incident reports and the observed rent index of each zip code. The first attempt, using monthly figures, yields no correlations, however, upon examining the data further it appears that noise incident reports vary regularly depending on the time of year.
 
-An couple examples of the non-correlated but periodic monthly data:
+An couple examples of non-correlated but periodic monthly data:
 
 <p align="center">
   10457 (Bronx) (by month)<br>
