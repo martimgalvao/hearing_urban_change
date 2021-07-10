@@ -11,28 +11,39 @@ After discarding zip codes with a p > 0.05 and r < 0.8, a list of 20 correlated 
 A few examples:
 
 <p align="center">
-  10030 (Harlem) <br>
-  <img src="https://github.com/martimgalvao/hearing_urban_change/blob/main/years_output/year_output_10030.png" />
-</p>
-
-<p align="center">
   10034 (Inwood) <br>
+  <img src="https://github.com/martimgalvao/hearing_urban_change/blob/main/year_plot_rent_noise_output/year_plot_rent_vs_noise10034.png" />
   <img src="https://github.com/martimgalvao/hearing_urban_change/blob/main/years_output/year_output_10034.png" />
 </p>
 
 <p align="center">
+  10457 (Bronx) <br>
+  <img src="https://github.com/martimgalvao/hearing_urban_change/blob/main/year_plot_rent_noise_output/year_plot_rent_vs_noise10457.png" />
+  <img src="https://github.com/martimgalvao/hearing_urban_change/blob/main/years_output/year_output_10457.png" />
+</p>
+
+<p align="center">
+  10458 (Bronx) <br>
+  <img src="https://github.com/martimgalvao/hearing_urban_change/blob/main/year_plot_rent_noise_output/year_plot_rent_vs_noise10458.png" />
+  <img src="https://github.com/martimgalvao/hearing_urban_change/blob/main/years_output/year_output_10458.png" />
+</p>
+
+<p align="center">
   11201 (Downtown Brooklyn) <br>
+  <img src="https://github.com/martimgalvao/hearing_urban_change/blob/main/year_plot_rent_noise_output/year_plot_rent_vs_noise11201.png" />
   <img src="https://github.com/martimgalvao/hearing_urban_change/blob/main/years_output/year_output_11201.png" />
 </p>
 
 <p align="center">
-  11206 (East Williamsburg) <br>
-  <img src="https://github.com/martimgalvao/hearing_urban_change/blob/main/years_output/year_output_11206.png" />
+  11221 (Bushwick) <br>
+  <img src="https://github.com/martimgalvao/hearing_urban_change/blob/main/year_plot_rent_noise_output/year_plot_rent_vs_noise11221.png" />
+  <img src="https://github.com/martimgalvao/hearing_urban_change/blob/main/years_output/year_output_11221.png" />
 </p>
 
 <p align="center">
-  11221 (Bushwick) <br>
-  <img src="https://github.com/martimgalvao/hearing_urban_change/blob/main/years_output/year_output_11221.png" />
+  11435 (Briarwood) <br>
+  <img src="https://github.com/martimgalvao/hearing_urban_change/blob/main/year_plot_rent_noise_output/year_plot_rent_vs_noise11435.png" />
+  <img src="https://github.com/martimgalvao/hearing_urban_change/blob/main/years_output/year_output_11435.png" />
 </p>
 
 While rent tends to trend upwards, by plotting the observed rent index and number of noise incident reports over time we can see how certain neighborhoods seem to experience a corallated increase in both. If we compare the selected zip codes to areas categorized as being in some state of gentrification by the [Urban Displacement Project](https://www.urbandisplacement.org/maps/ny), the results seem to accurately depict areas of rapid urban change in New York City. 
