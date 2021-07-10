@@ -1,16 +1,12 @@
 # Hearing Urban Change
 
-Using noise incident reports from 311 noise complaints from [NYC Open Data](https://data.cityofnewyork.us/Social-Services/311-Noise-Complaints/p5f6-bkga/data) and observed rent index data from [Zillow Research](https://www.zillow.com/research/data/), we can explore how correlation between noise incident reports and observed rent index can be used as as an indicator of urban change in New York City neighborhoods.
+Several studies to date have looked into the significance of noise incident reports as an indicator of gentrification in urban areas ([Vo 2018](https://www.buzzfeednews.com/article/lamvo/gentrification-complaints-311-new-york), [Misra 2018](https://www.bloomberg.com/news/articles/2018-10-18/in-new-york-city-gentrification-brings-more-311-calls)). While the research seems to point towards a correlated relationship between the two variables, this project seeks to further investigate how this correlation can be used to identify and predict urban change. Using 311 noise incident reports from [NYC Open Data](https://data.cityofnewyork.us/Social-Services/311-Noise-Complaints/p5f6-bkga/data) and observed rent index data from [Zillow Research](https://www.zillow.com/research/data/), the following analyses explore how correlation between noise incident reports and observed rent index might be used as as an indicator of urban change in New York City neighborhoods. Proposed expansions of this study, outlined in the conclusion, seek to further explore the question of what qualifies as noise in these neighborhoods through audio event anaylsis of geo-tagged recordings.
 
-First, we group the available data (from 2014 to 2021) by zip code and remove all data after December 2019 to eliminate abnormal market behavior during the pandemic.
+In the first step of this analysis, available data for both noise incident reports and observed rent index from 2014 to 2021 were grouped by zip code. Then, data after December 2019 was removed from the dataset to eliminate abnormal market behavior caused by the pandemic.
 
-Then, for each zip code, we use the number of noise incident reports per month and the observed rent index of that month to determine correlation.
+Then a correlation coefficient is generated for the relaitonship between the number of noise incident reports and the observed rent index of each zip code. This was first attempted using data for each month but resulted in no correlations. Upon examining the data further it appeared that noise incident reports varied depending on the time of year, so another correlation was calculated based on average yearly data.
 
-After discarding zip codes with a p ≥ 0.05 and an r ≤ 0.8, we are left with no significant correlations.
-
-Because the number of noise incidents reported exhibits regular fluctuations based on the time of year, we can also examine this same correlation on a yearly timescale.
-
-Running the same correlation calculation by year for 2014-2019, we get a list of 20 zip codes with a p ≤ 0.05 and r ≥ 0.8.
+After discarding zip codes with a p > 0.05 and r < 0.8, a list of 20 correlated zip codes remained.
 
 A few examples:
 
@@ -41,7 +37,7 @@ A few examples:
 
 While rent tends to trend upwards, by plotting the observed rent index and number of noise incident reports over time we can see how certain neighborhoods seem to experience a corallated increase in both. If we compare the selected zip codes to areas categorized as being in some state of gentrification by the [Urban Displacement Project](https://www.urbandisplacement.org/maps/ny), the results seem to accurately depict areas of rapid urban change in New York City. 
 
-To better understand these relationships, we can also visualize the 20 significant zip codes on a map:
+To better understand these relationships, we can also visualize the correlations of the 20 significant zip codes on a map:
 
 <p align="center">
   <img src="https://github.com/martimgalvao/hearing_urban_change/blob/main/year_r_map.png" />
