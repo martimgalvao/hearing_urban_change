@@ -13,9 +13,9 @@ An example of the non-correlated but periodic monthly data from zip code 10457 i
   <img src="https://github.com/martimgalvao/hearing_urban_change/blob/main/month_plot_rent_noise_output/month_plot_rent_vs_noise10034.png" />
   <img src="https://github.com/martimgalvao/hearing_urban_change/blob/main/months_output/month_output_10457.png" />
 
-Another correlation was calculated based on average yearly data.
+The next step in the analysis takes the mean number of noise incident reports for each year and the mean observed rent index for each year and looks for any significant correlations between the two.
 
-After discarding zip codes with a p > 0.05 and r < 0.8, a list of 20 correlated zip codes remained.
+After discarding zip codes with a p > 0.05 and r < 0.8, a list of 20 correlated zip codes remains.
 
 A few examples:
 
@@ -55,9 +55,9 @@ A few examples:
   <img src="https://github.com/martimgalvao/hearing_urban_change/blob/main/years_output/year_output_11435.png" />
 </p>
 
-While rent tends to trend upwards, by plotting the observed rent index and number of noise incident reports over time we can see how certain neighborhoods seem to experience a correlated increase in both. If we compare the selected zip codes to areas categorized as being in some state of gentrification by the [Urban Displacement Project](https://www.urbandisplacement.org/maps/ny), the results seem to accurately depict areas of rapid urban change in New York City. 
+While rent tends to trend upwards, by plotting the observed rent index and number of noise incident reports over time we can see how certain neighborhoods seem to experience a correlated increase in both. If we compare the zip codes above to areas categorized as being in some state of gentrification by the [Urban Displacement Project](https://www.urbandisplacement.org/maps/ny) we can further confirm the correlations. 
 
-To better understand these relationships, we can also visualize the correlations of the 20 significant zip codes on a map:
+To better understand these relationships, we can also visualize the correlations of these zip codes on a map:
 
 <p align="center">
   <img src="https://github.com/martimgalvao/hearing_urban_change/blob/main/year_r_map.png" />
