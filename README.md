@@ -8,7 +8,7 @@ Proposed expansions of this study, outlined in the conclusion, further explore t
 
 In the first step of this preliminary analysis, available data for both noise incident reports and observed rent index from 2014 to 2021 is grouped by zip code. Then, data after December 2019 is removed from the dataset to eliminate abnormal market behavior caused by the pandemic.
 
-Following this, a correlation coefficient is generated for the relationship between the number of noise incident reports and the observed rent index of each zip code. The first attempt using monthly data yielded no correlations, however, upon examining the data further it appears that noise incident reports vary regularly depending on the time of year.
+Following this, a correlation coefficient is generated for the relationship between the number of noise incident reports and the observed rent index of each zip code. The first attempt, using monthly figures, yields no correlations, however, upon examining the data further it appears that noise incident reports vary regularly depending on the time of year.
 
 An couple examples of the non-correlated but periodic monthly data:
 
