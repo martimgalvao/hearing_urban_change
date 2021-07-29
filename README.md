@@ -77,8 +77,7 @@ Although the initial results do seem to point towards a correlation between nois
 Below is an example of a Mel Spectrogram representing an outdoor recording taken in Chinatown, NYC. Such spectrograms can be used to train a deep learning classifier to identify specific noise sources in recordings.
 
 <p align="center">
-  <img src="https://github.com/martimgalvao/hearing_urban_change/blob/main/year_plot_rent_noise_output/year_plot_rent_vs_noise11435.png" />
-  <img src="https://github.com/martimgalvao/hearing_urban_change/blob/main/years_output/year_output_11435.png" />
+  <img src="https://github.com/martimgalvao/hearing_urban_change/blob/2e781c3cf7d185ef2e425e4d3c77cdfd49d3d68e/Mel_Spectrogram_nyc_chinatown_trimmed.png"/>
 </p>
 
 A pre-labeled dataset such as NYU's Sound of New York City Urban Sound Tagging ([SONYC-UST](https://wp.nyu.edu/sonyc/)) dataset will be useful in this next phase, as will geo-tagged audio files from publicly available sources such as [Freesound](https://freesound.org). The latter will require the development of an audio event classifier using [Librosa](https://librosa.org) to recognize various categories of noise present in the recordings.
